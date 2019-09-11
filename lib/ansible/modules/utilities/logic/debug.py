@@ -65,7 +65,7 @@ EXAMPLES = r'''
   register: result
 
 - debug:
-    var: result
+    var: result.stdout
     verbosity: 2
 
 - name: Display all variables/facts known for a host
